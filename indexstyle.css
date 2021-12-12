@@ -1,0 +1,46 @@
+body {
+    padding: 0;
+    margin: 10;
+
+    background-color: rgb(28, 28, 85);
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(129, 39, 89);
+    color: white;
+    padding-inline: 15px;
+}
+ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+main {
+    width: 80vw;
+    margin-inline: auto;
+
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.heading span {
+    border-bottom: 1px solid rgb(216, 230, 22);
+}
+.about img {
+    height: 250px;
+    width: 250px;
+}
+.skills-container {
+    display: flex;
+    font-size: 22px;
+    gap: 1.2rem;
+    flex-wrap: wrap;
+}
